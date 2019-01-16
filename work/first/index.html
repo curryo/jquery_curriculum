@@ -95,7 +95,7 @@
       $("#q6").animate({"marginTop":100, "marginLeft":100}, 2000);
     });
   // 第7問  id='q7'の子要素をクリックしたら、その要素のインデックス（何番目か）をconsole.log()とalert()を用いて表示させよ。
-    $("#q7 li").click(function(){
+    $("#q7").find("li").click(function(){
       var indexNumber = $(this).index();
       console.log(indexNumber); 
       alert(indexNumber);
